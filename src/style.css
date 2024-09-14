@@ -1,0 +1,16 @@
+.boximage{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(224, 207, 232);
+}
+.dog-images{
+    width:100%;
+}
+@media screen and (max-width:550px){
+    .boximage{
+        display: block;
+    }
+}
